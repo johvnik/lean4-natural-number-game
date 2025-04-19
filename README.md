@@ -1,9 +1,7 @@
-<center>
 # Lean4 Natural Number Game - Solutions
 
 [![Lean Version](https://img.shields.io/badge/Lean-v4.19.0--rc2-orange)](https://github.com/leanprover/lean4/releases/tag/v4.19.0-rc2)
 [![Mathlib Version](https://img.shields.io/badge/Mathlib-v4.19.0--rc2-blue)](https://github.com/leanprover/mathlib4/releases/tag/v4.19.0-rc2)
-</center>
 
 This repository contains my personal solutions to the [Lean4 Natural Number Game](https://adam.math.hhu.de/). The Natural Number Game (NNG) is an interactive tutorial designed to teach the basics of theorem proving in Lean, focusing on the properties of natural numbers ($\mathbb{N}$).
 
