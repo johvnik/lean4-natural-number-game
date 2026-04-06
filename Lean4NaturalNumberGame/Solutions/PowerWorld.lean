@@ -2,7 +2,7 @@ import Mathlib.Tactic.Lemma
 import Mathlib.Tactic.NthRewrite
 
 import Lean4NaturalNumberGame.Base
-import Lean4NaturalNumberGame.MultiplicationWorldSolutions
+import Lean4NaturalNumberGame.Solutions.MultiplicationWorld
 
 open MyNat
 

@@ -2,8 +2,8 @@ import Mathlib.Tactic.Lemma
 import Mathlib.Tactic.NthRewrite
 
 import Lean4NaturalNumberGame.Base
-import Lean4NaturalNumberGame.TutorialWorldSolutions
-import Lean4NaturalNumberGame.AdditionWorldSolutions
+import Lean4NaturalNumberGame.Solutions.TutorialWorld
+import Lean4NaturalNumberGame.Solutions.AdditionWorld
 
 open MyNat
 

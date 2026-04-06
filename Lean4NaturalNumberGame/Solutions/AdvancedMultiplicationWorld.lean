@@ -1,7 +1,7 @@
 import Lean4NaturalNumberGame.Base
-import Lean4NaturalNumberGame.MultiplicationWorldSolutions
-import Lean4NaturalNumberGame.AlgorithmWorldSolutions
-import Lean4NaturalNumberGame.LessEqualWorldSolutions
+import Lean4NaturalNumberGame.Solutions.MultiplicationWorld
+import Lean4NaturalNumberGame.Solutions.AlgorithmWorld
+import Lean4NaturalNumberGame.Solutions.LessEqualWorld
 
 open MyNat
 

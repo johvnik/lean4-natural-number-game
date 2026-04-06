@@ -1,5 +1,5 @@
 import Lean4NaturalNumberGame.Base
-import Lean4NaturalNumberGame.AdditionWorldSolutions
+import Lean4NaturalNumberGame.Solutions.AdditionWorld
 
 open MyNat
 
