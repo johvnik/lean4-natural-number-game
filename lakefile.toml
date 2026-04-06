@@ -1,6 +1,6 @@
 name = "lean4-natural-number-game"
 version = "0.1.0"
-defaultTargets = ["Lean4NaturalNumberGame"]
+defaultTargets = ["Lean4NaturalNumberGame", "Lean4NaturalNumberGameSolutions"]
 
 [[require]]
 name = "mathlib"
