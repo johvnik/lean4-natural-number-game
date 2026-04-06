@@ -5,7 +5,7 @@
 
 This repository contains a local Lean 4 version of the [Lean4 Natural Number Game](https://adam.math.hhu.de/), split into two tracks:
 
-- `Lean4NaturalNumberGame`: the learner-facing skeleton track with theorem statements and `sorry` holes.
+- `Lean4NaturalNumberGame`: the learner-facing template track with theorem statements and `sorry` placeholders.
 - `Lean4NaturalNumberGameSolutions`: the reference solutions track with completed proofs under `Lean4NaturalNumberGame/Solutions/`.
 
 Both tracks share the same core definitions in `Lean4NaturalNumberGame/Base.lean`, and the module layout matches across the two tracks so it is easy to compare a world against its solved version.
@@ -29,14 +29,10 @@ This project uses Lean 4 and depends on Mathlib4.
 ```bash
 git clone https://github.com/johvnik/lean4-natural-number-game.git
 cd lean4-natural-number-game
-lake build Lean4NaturalNumberGame
+lake build
 ```
 
-To build the reference solutions as well:
-
-```bash
-lake build Lean4NaturalNumberGameSolutions
-```
+This builds both the template track and the reference solutions.
 
 ## Working With The Tracks
 
@@ -47,6 +43,6 @@ Open the project in VS Code with the Lean 4 extension.
 
 The intended workflow is:
 
-1. Work in the unsuffixed world files.
+1. Work in the template world files under `Lean4NaturalNumberGame/`.
 2. Fill the `sorry` holes as you solve each level.
 3. Compare against the matching module in `Lean4NaturalNumberGame/Solutions/` when needed.
