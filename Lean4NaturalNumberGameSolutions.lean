@@ -1,0 +1,12 @@
+-- This module is the reference solutions track for the
+-- `Lean4NaturalNumberGame` library.
+import Lean4NaturalNumberGame.Base
+import Lean4NaturalNumberGame.TutorialWorldSolutions
+import Lean4NaturalNumberGame.AdditionWorldSolutions
+import Lean4NaturalNumberGame.MultiplicationWorldSolutions
+import Lean4NaturalNumberGame.ImplicationWorldSolutions
+import Lean4NaturalNumberGame.PowerWorldSolutions
+import Lean4NaturalNumberGame.AdvancedAdditionWorldSolutions
+import Lean4NaturalNumberGame.AlgorithmWorldSolutions
+import Lean4NaturalNumberGame.LessEqualWorldSolutions
+import Lean4NaturalNumberGame.AdvancedMultiplicationWorldSolutions

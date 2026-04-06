@@ -1,5 +1,5 @@
--- This module serves as the root of the `Lean4NaturalNumberGame` library.
--- Import modules here that should be built as part of the library.
+-- This module is the learner-facing skeleton track for the
+-- `Lean4NaturalNumberGame` library.
 import Lean4NaturalNumberGame.Base
 import Lean4NaturalNumberGame.TutorialWorld
 import Lean4NaturalNumberGame.AdditionWorld
