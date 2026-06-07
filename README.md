@@ -1,7 +1,7 @@
 # Lean4 Natural Number Game
 
-[![Lean Version](https://img.shields.io/badge/Lean-v4.19.0--rc2-orange)](https://github.com/leanprover/lean4/releases/tag/v4.19.0-rc2)
-[![Mathlib Version](https://img.shields.io/badge/Mathlib-v4.19.0--rc2-blue)](https://github.com/leanprover/mathlib4/releases/tag/v4.19.0-rc2)
+[![Lean Version](https://img.shields.io/badge/Lean-v4.30.0-orange)](https://github.com/leanprover/lean4/releases/tag/v4.30.0)
+[![Mathlib Version](https://img.shields.io/badge/Mathlib-v4.30.0-blue)](https://github.com/leanprover/mathlib4/releases/tag/v4.30.0)
 
 This repository contains a local Lean 4 version of the [Lean4 Natural Number Game](https://adam.math.hhu.de/), split into two tracks:
 
@@ -16,8 +16,8 @@ Both tracks share the same core definitions in `Lean4NaturalNumberGame/Base.lean
 
 This project uses Lean 4 and depends on Mathlib4.
 
-- Lean version: `v4.19.0-rc2` (see `lean-toolchain`)
-- Mathlib version: `v4.19.0-rc2` (see `lakefile.toml`)
+- Lean version: `v4.30.0` (see `lean-toolchain`)
+- Mathlib version: `v4.30.0` (see `lakefile.toml`)
 
 ### Prerequisites
 
@@ -46,3 +46,7 @@ The intended workflow is:
 1. Work in the template world files under `Lean4NaturalNumberGame/`.
 2. Fill the `sorry` holes as you solve each level.
 3. Compare against the matching module in `Lean4NaturalNumberGame/Solutions/` when needed.
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.

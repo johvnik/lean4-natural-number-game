@@ -2,6 +2,8 @@ import Lean4NaturalNumberGame.Base
 import Lean4NaturalNumberGame.TutorialWorld
 import Lean4NaturalNumberGame.AdditionWorld
 
+set_option warn.sorry false
+
 open MyNat
 
 /- Level 1 / 11 : The `exact` tactic -/

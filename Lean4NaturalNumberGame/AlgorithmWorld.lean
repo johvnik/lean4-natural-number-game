@@ -1,6 +1,8 @@
 import Lean4NaturalNumberGame.Base
 import Lean4NaturalNumberGame.AdditionWorld
 
+set_option warn.sorry false
+
 -- TODO:
 -- import Mathlib.Data.Nat.Notation failed, environment already contains 'termℕ._closed_5._cstage2' from Lean4NaturalNumberGame.Base
 -- Avoiding `contrapose!` tactic for now (Level 7).

@@ -22,7 +22,7 @@ example (a b c d : ℕ) : a + b + (c + d) = a + c + d + b := by
 
 /- Level 3 / 9 : making life simple -/
 example (a b c d e f g h : ℕ) : (d + f) + (h + (a + c)) + (g + e + b) = a + b + c + d + e + f + g + h := by
-  simp only [add_assoc, add_left_comm, add_comm]
+  simp only [add_left_comm, add_comm]
 
 macro "simp_add" : tactic => `(tactic|(
   simp only [add_assoc, add_left_comm, add_comm]))

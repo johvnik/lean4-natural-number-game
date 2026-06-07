@@ -4,6 +4,8 @@ import Mathlib.Tactic.NthRewrite
 import Lean4NaturalNumberGame.Base
 import Lean4NaturalNumberGame.MultiplicationWorld
 
+set_option warn.sorry false
+
 open MyNat
 
 theorem pow_succ (a m : ℕ) : a ^ succ m = a ^ m * a := by

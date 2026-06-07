@@ -1,5 +1,7 @@
 import Lean4NaturalNumberGame.Base
 
+set_option warn.sorry false
+
 open MyNat
 
 /- Level 1 / 5 : zero_add -/

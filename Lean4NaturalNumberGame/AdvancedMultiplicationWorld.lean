@@ -3,6 +3,8 @@ import Lean4NaturalNumberGame.MultiplicationWorld
 import Lean4NaturalNumberGame.AlgorithmWorld
 import Lean4NaturalNumberGame.LessEqualWorld
 
+set_option warn.sorry false
+
 open MyNat
 
 /- Level 1 / 10 : mul_le_mul_right -/

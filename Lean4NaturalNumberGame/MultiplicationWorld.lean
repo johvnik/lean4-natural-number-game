@@ -5,6 +5,8 @@ import Lean4NaturalNumberGame.Base
 import Lean4NaturalNumberGame.TutorialWorld
 import Lean4NaturalNumberGame.AdditionWorld
 
+set_option warn.sorry false
+
 open MyNat
 
 -- Define mul_succ here because we need add_comm to easily solve this from

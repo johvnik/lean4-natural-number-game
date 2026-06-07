@@ -4,6 +4,8 @@ import Lean4NaturalNumberGame.AdvancedAdditionWorld
 
 import Mathlib.Tactic.Use -- similar to exists tactic
 
+set_option warn.sorry false
+
 open MyNat
 
 /- NOTE
